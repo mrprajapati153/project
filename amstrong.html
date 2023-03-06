@@ -1,0 +1,59 @@
+<html>
+<head>
+ <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="amstrong.html">ARMSTRONG</a></li>
+                <li><a href="swap.html">SWAP</a></li>
+                <li><a href="primeornot.html">PRIME||NOT</a></li>
+                <li><a href="fectorial.html">FECTORIAL</a></li>
+                <li><a href="sqrt.html">SQRT</a></li>
+                <li><a href="evenodd.html">EVEN||ODD</a></li>
+                <li><a href="positivenagative.html">PNZ</a></li>
+                <li><a href="calculator.html">CALCULATOR</a></li>
+                
+            </ul>
+          
+        </nav>
+    </div>
+    <center>
+    <div class="div1">
+        <h3>Armstrong </h3>
+    <form name="frm">
+       Number: <input class="input" type="num" name="number"><br><br>
+       <input id= "onclick" class="button" type="button" value="click me" onclick="amstrong()"><br><br>
+     
+       <div class="div2"><label id="x"></label></div>
+    </form>
+    </div>
+    <script>
+        function amstrong()
+        {
+            var  num1=parseInt(frm.number.value);
+            var ans=document.getElementById("x");
+            let sum=0
+            temp=num1;
+            while(temp>0)
+                {
+                   let digit=temp % 10;
+                   sum+=digit*digit*digit;
+                    temp=parseInt(temp / 10);
+                }
+                if(sum==num1)
+                {
+                    x.innerHTML="Amstrong Number:"+num1;
+                }
+                 else
+                 {
+                x.innerHTML="Not Amstrong Number:"+num1;
+                 }
+        }
+    
+    </script>
+
+    </center>
+</body>
+</html>

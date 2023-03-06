@@ -1,0 +1,50 @@
+<html>
+ <head>
+    <link rel="stylesheet" href="home.css">
+
+ </head>
+ 
+ <body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="amstrong.html">ARMSTRONG</a></li>
+                <li><a href="swap.html">SWAP</a></li>
+                <li><a href="primeornot.html">PRIME||NOT</a></li>
+                <li><a href="fectorial.html">FECTORIAL</a></li>
+                <li><a href="sqrt.html">SQRT</a></li>
+                <li><a href="evenodd.html">EVEN||ODD</a></li>
+                <li><a href="positivenagative.html">PNZ</a></li>
+                <li><a href="calculator.html">CALCULATOR</a></li>
+                
+            </ul>
+          
+        </nav>
+    </div>
+    <center>
+        <div class="div1">
+    <h3>Swap TO Number</h3>
+    
+    <form name="frm">
+        Number1:<input  class="input" type="num" name="num1"><br><br>
+        Number2:<input  class="input" type="num" name="num2"><br><br>
+        <button class="button"  id= "onclick" type="button" onclick="swap()">click me</button>
+   
+    </form>
+    </div>
+
+    <script>
+        function swap()
+        {
+            var num1,num2;
+            num1=parseInt(frm.num1.value);
+            num2=parseInt(frm.num2.value);
+           [ num1,num2]=[num2,num1]
+            frm.num1.value=num1;
+            frm.num2.value=num2;
+        }
+        
+    </script>
+ </center>
+ </body>
+</html>

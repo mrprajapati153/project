@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="amstrong.html">ARMSTRONG</a></li>
+                <li><a href="swap.html">SWAP</a></li>
+                <li><a href="primeornot.html">PRIME||NOT</a></li>
+                <li><a href="fectorial.html">FECTORIAL</a></li>
+                <li><a href="sqrt.html">SQRT</a></li>
+                <li><a href="evenodd.html">EVEN||ODD</a></li>
+                <li><a href="positivenagative.html">PNZ</a></li>
+                <li><a href="calculator.html">CALCULATOR</a></li>
+                
+            </ul>
+          
+        </nav>
+    </div>
+    <center>
+        <div class="div1">
+        <h3> Positive Or Negative </h3>
+    
+    <form name="frm">
+        Number :<input class="input" type="num" name="num1"><br><br>
+        <input class="button" id= "onclick" type="button" value="click me" onclick="dispaly()"><br><br>
+     
+        <div class="div2"><label id="x"></label></div>
+        
+    </form>
+        </div>
+    <script>
+        function dispaly()
+        {
+            var Number=parseInt(frm.num1.value);
+            var ans=document.getElementById("x");
+            if(Number>0)
+                {
+                    x.innerHTML=" Number is positive:"+Number;
+                }
+            else if(Number==0){
+                x.innerHTML="Number is Zero:"+Number;
+                  }
+            else{
+                x.innerHTML="Number is Negtive:"+Number;
+            }
+        }
+    </script>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+ .b{
+    border: solid black 2px;
+    border-radius: 8px;
+ 
+   margin-top: 20px;
+   margin-left: 390px;
+   margin-right: 410px;
+
+
+ }   
+ .header{
+    text-align: center;
+    margin-top: 10px;      
+    
+    
+ }
+ 
+
+
+ #input{
+   text-align: right ;
+   padding: 3px;
+   margin-left: 20px  ;
+   margin-right: 20px;
+   margin-top: -5px;
+   border: 2px solid black;
+   border-radius: 20px;
+   
+   
+
+ }
+
+
+ .button1{
+   color: black;
+   background-color:rgb(75, 13, 133);
+    height: 32px;
+    width: 32px;
+    margin-left: 15.5px;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 50px;
+    
+    }
+.button1:hover{
+   color:white;
+   background-color: black;
+   box-shadow: 2px 2px 2px rgb(77, 75, 75);
+
+}

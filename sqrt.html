@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="home.css">
+</head>
+    <body>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="amstrong.html">ARMSTRONG</a></li>
+                    <li><a href="swap.html">SWAP</a></li>
+                    <li><a href="primeornot.html">PRIME||NOT</a></li>
+                    <li><a href="fectorial.html">FECTORIAL</a></li>
+                    <li><a href="sqrt.html">SQRT</a></li>
+                    <li><a href="evenodd.html">EVEN||ODD</a></li>
+                    <li><a href="positivenagative.html">PNZ</a></li>
+                    <li><a href="calculator.html">CALCULATOR</a></li>
+                    
+                </ul>
+              
+            </nav>
+        </div>
+        <div class="div1">
+        <center>
+            <h3>Squre Root</h3>
+        <form name="frm">
+        Number:<input  class="input"type="num" name="number"><br><br>
+        <input class="button" id= "onclick" type="button" value="click me" onclick="squre()"><br><br>
+      
+       <div class="div2"><label id="x"></label></div>
+        </form>
+        <div>
+        <script>
+            function squre()
+            {
+                var num2=parseInt(frm.number.value)
+                var ans=document.getElementById("x")
+                num2=Math.sqrt(num2)
+                x.innerHTML="Squre root :"+num2;
+            }
+        </script>
+        </center>
+    </body>
+</html>
